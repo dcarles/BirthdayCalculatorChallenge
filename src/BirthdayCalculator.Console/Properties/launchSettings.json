@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BirthdayCalculator.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Programming\\Projects\\Interview coding tests\\backend-birthday-assignment-1-eraozw\\people.json\""
+    }
+  }
+}

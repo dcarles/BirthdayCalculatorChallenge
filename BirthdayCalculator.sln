@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCalculator.API", "src\BirthdayCalculator.API\BirthdayCalculator.API.csproj", "{7533E675-FB77-4905-AF65-FCB38BE96651}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCalculator.Domain", "src\BirthdayCalculator.Domain\BirthdayCalculator.Domain.csproj", "{E64A7C42-F287-440C-ACA0-5462474050A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCalculator.Console", "src\BirthdayCalculator.Console\BirthdayCalculator.Console.csproj", "{0028B53C-049F-4CB7-A073-BDF9D37F13AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0C10D2F6-C638-4202-853D-97D4FA0C831C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{847485F1-31D0-4D50-9D67-919A19F1A1BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCalculator.ViewModels", "src\BirthdayCalculator.ViewModels\BirthdayCalculator.ViewModels.csproj", "{132015A9-7442-459B-B3A8-E8234643907A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCalculator.Tests.Unit", "tests\BirthdayCalculator.Tests.Unit\BirthdayCalculator.Tests.Unit.csproj", "{419F8EAE-3EC3-4001-8EB4-D98CB375E61A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7533E675-FB77-4905-AF65-FCB38BE96651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7533E675-FB77-4905-AF65-FCB38BE96651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7533E675-FB77-4905-AF65-FCB38BE96651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7533E675-FB77-4905-AF65-FCB38BE96651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64A7C42-F287-440C-ACA0-5462474050A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64A7C42-F287-440C-ACA0-5462474050A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64A7C42-F287-440C-ACA0-5462474050A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64A7C42-F287-440C-ACA0-5462474050A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0028B53C-049F-4CB7-A073-BDF9D37F13AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0028B53C-049F-4CB7-A073-BDF9D37F13AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0028B53C-049F-4CB7-A073-BDF9D37F13AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0028B53C-049F-4CB7-A073-BDF9D37F13AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132015A9-7442-459B-B3A8-E8234643907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132015A9-7442-459B-B3A8-E8234643907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132015A9-7442-459B-B3A8-E8234643907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132015A9-7442-459B-B3A8-E8234643907A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419F8EAE-3EC3-4001-8EB4-D98CB375E61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419F8EAE-3EC3-4001-8EB4-D98CB375E61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419F8EAE-3EC3-4001-8EB4-D98CB375E61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419F8EAE-3EC3-4001-8EB4-D98CB375E61A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7533E675-FB77-4905-AF65-FCB38BE96651} = {0C10D2F6-C638-4202-853D-97D4FA0C831C}
+		{E64A7C42-F287-440C-ACA0-5462474050A9} = {0C10D2F6-C638-4202-853D-97D4FA0C831C}
+		{0028B53C-049F-4CB7-A073-BDF9D37F13AF} = {0C10D2F6-C638-4202-853D-97D4FA0C831C}
+		{132015A9-7442-459B-B3A8-E8234643907A} = {0C10D2F6-C638-4202-853D-97D4FA0C831C}
+		{419F8EAE-3EC3-4001-8EB4-D98CB375E61A} = {847485F1-31D0-4D50-9D67-919A19F1A1BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12583C6C-9FC2-42BD-BC2C-1BBF416F3527}
+	EndGlobalSection
+EndGlobal

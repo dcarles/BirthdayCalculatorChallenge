@@ -1,0 +1,22 @@
+[
+	{
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1982-10-08"
+    },
+	{
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "birthDate": "1965-01-30"
+    },
+	{
+      "firstName": "Lady",
+      "lastName": "Gaga",
+      "birthDate": "1986-03-19"
+    },
+	{
+      "firstName": "Mark",
+      "lastName": "Curry",
+      "birthDate": "1988-02-29"
+    }
+]
